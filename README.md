@@ -11,7 +11,8 @@ This is what I want to currently **only** implements:
    the following API. Find peers 'responsible' or 'closest' to a given key:
 
     ```python
-    PeerRouting.find_peers(key)
+    class PeerRouting(object)
+      def find_peers(key)
         """
         Args:
           key: key is a multihash (https://github.com/multiformats/multihash)
