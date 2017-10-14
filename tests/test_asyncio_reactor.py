@@ -1,6 +1,3 @@
-import sys
-sys.path.append('..')
-
 import asyncio
 from libp2p import reactor
 
